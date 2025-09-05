@@ -55,10 +55,7 @@ function geraSenha() {
     }
     campoSenha.value = senha;
     classificaSenha(alfabeto.length);
-}
 
-for (i = 0; i < checkbox.length; i++) {
-    checkbox[i].onclick = geraSenha;
 }
 
 function classificaSenha(tamanhoAlfabeto) {
